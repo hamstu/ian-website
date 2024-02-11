@@ -1,6 +1,36 @@
 body {
-  background-color: rgb(111, 151, 244)
+  background-color: #244c63;
+  background-image: url('castle.png');
+  /* fit background horiontally and vertically */
+  background-size: contain;
+  /* center the background */
+  background-position: center;
+  /* no repeat */
+  background-repeat: no-repeat;
 }
+
+body > h1 {
+  color: white;
+}
+
+p {
+  color: white;
+}
+
+body > a {
+  color: lightblue;
+}
+
+.logo {
+  background: white;
+}
+
+.intro {
+  background-color: rgba(27, 75, 115, 0.7);
+  border: 1px solid rgba(0,0,0,.6);
+  padding: 20px;
+}
+
 h1{
   font-family: 'Sedgwick Ave Display', cursive;
   color: rgb(82, 83, 176);
@@ -24,8 +54,12 @@ h1{
 	color: black;
 }
 
+table {
+  background-color: rgba(0,0,0,.6);
+}
+
 
 .recopeepee {
 border: 3px solid greenyellow;
-background: #6c9169;
+background: #6c916955;
 }
